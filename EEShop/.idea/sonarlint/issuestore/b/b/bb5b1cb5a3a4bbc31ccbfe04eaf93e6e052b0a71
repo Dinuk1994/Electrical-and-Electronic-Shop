@@ -1,0 +1,37 @@
+
+h	java:S112•"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îŒÓ1
+h	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îŒÓ1
+h	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îŒÓ1
+h	java:S112©"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îŒÓ1
+h	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8îŒÓ1
+s
+java:S1192£"UDefine a constant instead of duplicating this literal "Something Went Wrong" 3 times.(Óò…»8îŒÓ1
+m
+java:S1104("QMake pane8 a static final constant or non-public and provide accessors if needed.(Ëšš&8îŒÓ1
+ˆ
+java:S4144Å"eUpdate this method so that its implementation is not identical to "dashboardBtnOnAction" on line 188.(”—ä¥ÿÿÿÿÿ8ºîŒÓ1
+c
+java:S2147–"ECombine this catch with the one at line 148, which has the same body.(ıàÑÎ8ÁîŒÓ1
+c
+java:S2147¨"ECombine this catch with the one at line 166, which has the same body.(ıàÑÎ8ÇîŒÓ1
+O
+java:S1172¼"2Remove this unused method parameter "actionEvent".(Œ¶¡8ÍîŒÓ1
+U
+java:S1172Å"2Remove this unused method parameter "actionEvent".(”—ä¥ÿÿÿÿÿ8×îŒÓ1
+U
+java:S1172Í"2Remove this unused method parameter "actionEvent".(şí±ãıÿÿÿÿ8ÙîŒÓ1
+P
+java:S1172Ù"2Remove this unused method parameter "actionEvent".(·•€œ8ÛîŒÓ1
+P
+java:S1172è"2Remove this unused method parameter "actionEvent".(±‹ìÅ8ŞîŒÓ1
+M
+java:S1128"+Remove this unused import 'dao.DaoFactory'.(ÕèÇ‡úÿÿÿÿ8øÎ¦’Ó1
+Q
+java:S1128"/Remove this unused import 'dao.custom.ItemDao'.(«µÒ£ıÿÿÿÿ8úÎ¦’Ó1
+J
+java:S1128
+"-Remove this unused import 'dao.util.DaoType'.(ô¼8úÎ¦’Ó1
+N
+java:S1128",Remove this unused import 'dto.CustomerDto'.(ÛàÀÖüÿÿÿÿ8úÎ¦’Ó1
+E
+java:S1128"(Remove this unused import 'entity.Item'.(ÏÂã8úÎ¦’Ó1

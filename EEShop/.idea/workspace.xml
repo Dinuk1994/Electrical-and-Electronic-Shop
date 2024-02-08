@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19564d6e-6bbf-4821-9a56-797ce1cf8fa6" name="Changes" comment="Adding Order Details Report">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/526f99afe1a483c93a3127117a147cdbfb133aab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/526f99afe1a483c93a3127117a147cdbfb133aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98282e9ad0c272c938570f036f9bbd4b84482cde" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98282e9ad0c272c938570f036f9bbd4b84482cde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa193ff54fd65b5e52212341451fb916ba8b0d1a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa193ff54fd65b5e52212341451fb916ba8b0d1a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0417af6bfd4be2fd900b0f9168e0f5534759ff5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0417af6bfd4be2fd900b0f9168e0f5534759ff5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb2b4a9da3cfafd5f6d66acd3b58c4ff5457086a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb2b4a9da3cfafd5f6d66acd3b58c4ff5457086a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserDashboardFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/LoginForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/UserDashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/UserDashboardForm.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dinuk1994&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e99ab661-690c-4f24-8ce2-bc18a4939efe" />
+        <option name="url" value="https://github.com/Dinuk1994/EE-Shop.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2aiFmlw6BCyaQ7DbYPJxMLGYt6u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Practice [clean,install].executor": "Run",
+    "Maven.Practice [javafx:run].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/JavaMyWork/practice3/EEShop/src/main/java",
+    "last_opened_file_path": "D:/iCD/Web Sup/2024-1-18 Book Inventory/untitled",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\iCD\JAVA FX\FinalProject\EEShop\src\main\resources\reports" />
+      <recent name="D:\iCD\JAVA FX\FinalProject\EEShop\src\main\resources" />
+      <recent name="D:\iCD\JAVA FX\FinalProject\EEShop\src\main\resources\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dto" />
+      <recent name="entity" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="EEShop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="EEShop" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice [javafx:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19564d6e-6bbf-4821-9a56-797ce1cf8fa6" name="Changes" comment="" />
+      <created>1704793658327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704793658327</updated>
+      <workItem from="1704793659390" duration="679000" />
+      <workItem from="1704794414794" duration="8353000" />
+      <workItem from="1704864586116" duration="398000" />
+      <workItem from="1705038160968" duration="32399000" />
+      <workItem from="1705123560328" duration="25635000" />
+      <workItem from="1705246913066" duration="8851000" />
+      <workItem from="1705295680011" duration="226000" />
+      <workItem from="1705484488403" duration="13429000" />
+      <workItem from="1705559195834" duration="7683000" />
+      <workItem from="1705590101575" duration="96000" />
+      <workItem from="1705639963576" duration="20735000" />
+      <workItem from="1705750270281" duration="16200000" />
+      <workItem from="1705780826249" duration="213000" />
+      <workItem from="1705858139973" duration="192000" />
+      <workItem from="1705858345729" duration="8932000" />
+      <workItem from="1705902410886" duration="20373000" />
+      <workItem from="1705995329209" duration="421000" />
+      <workItem from="1706332687839" duration="13000" />
+      <workItem from="1706336715101" duration="7000" />
+      <workItem from="1706678940910" duration="26000" />
+      <workItem from="1706955813425" duration="56000" />
+      <workItem from="1706955950524" duration="447000" />
+      <workItem from="1706956402657" duration="53000" />
+      <workItem from="1706956463661" duration="244000" />
+      <workItem from="1706956721675" duration="20449000" />
+      <workItem from="1707052407079" duration="4096000" />
+      <workItem from="1707066253330" duration="12220000" />
+      <workItem from="1707117654985" duration="27211000" />
+      <workItem from="1707195907645" duration="7445000" />
+      <workItem from="1707216706350" duration="13080000" />
+      <workItem from="1707285369053" duration="23962000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1704800906775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704800906775</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UserReg">
+      <option name="closed" value="true" />
+      <created>1705041074174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705041074174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ID Generate Complete">
+      <option name="closed" value="true" />
+      <created>1705043968063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705043968064</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ID Generate Complete">
+      <option name="closed" value="true" />
+      <created>1705043990743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705043990743</updated>
+    </task>
+    <task id="LOCAL-00005" summary="User registration table complete">
+      <option name="closed" value="true" />
+      <created>1705057587996</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705057587997</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Complete User Register Form">
+      <option name="closed" value="true" />
+      <created>1705064214068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705064214069</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Complete User Register Form">
+      <option name="closed" value="true" />
+      <created>1705072686908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705072686908</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Complete User LOgin Form">
+      <option name="closed" value="true" />
+      <created>1705085625535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705085625535</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Complete User LOgin Form">
+      <option name="closed" value="true" />
+      <created>1705085883576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705085883576</updated>
+    </task>
+    <task id="LOCAL-00010" summary="User DashBoard Complete">
+      <option name="closed" value="true" />
+      <created>1705130560478</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705130560478</updated>
+    </task>
+    <task id="LOCAL-00011" summary="User detail complete">
+      <option name="closed" value="true" />
+      <created>1705149250558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705149250559</updated>
+    </task>
+    <task id="LOCAL-00012" summary="User detail complete">
+      <option name="closed" value="true" />
+      <created>1705149316177</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705149316177</updated>
+    </task>
+    <task id="LOCAL-00013" summary="New Item Form Controller Designed">
+      <option name="closed" value="true" />
+      <created>1705172206069</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705172206069</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Item DTo">
+      <option name="closed" value="true" />
+      <created>1705247782403</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705247782403</updated>
+    </task>
+    <task id="LOCAL-00015" summary="New Add item complete">
+      <option name="closed" value="true" />
+      <created>1705507141839</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705507141839</updated>
+    </task>
+    <task id="LOCAL-00016" summary="NEW ORDER FORM">
+      <option name="closed" value="true" />
+      <created>1705513084350</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705513084350</updated>
+    </task>
+    <task id="LOCAL-00017" summary="NEW ORDER ITEM SAVE">
+      <option name="closed" value="true" />
+      <created>1705515888283</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705515888283</updated>
+    </task>
+    <task id="LOCAL-00018" summary="NEW ORDER ITEM SAVE">
+      <option name="closed" value="true" />
+      <created>1705515945414</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705515945414</updated>
+    </task>
+    <task id="LOCAL-00019" summary="NEW ORDER ITEM SAVE">
+      <option name="closed" value="true" />
+      <created>1705515953350</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705515953350</updated>
+    </task>
+    <task id="LOCAL-00020" summary="NEW ORDER ITEM SAVE">
+      <option name="closed" value="true" />
+      <created>1705515979581</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705515979581</updated>
+    </task>
+    <task id="LOCAL-00021" summary="New Customer Add Complete">
+      <option name="closed" value="true" />
+      <created>1705644290245</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1705644290245</updated>
+    </task>
+    <task id="LOCAL-00022" summary="New Customer Add Complete">
+      <option name="closed" value="true" />
+      <created>1705644342338</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1705644342338</updated>
+    </task>
+    <task id="LOCAL-00023" summary="OrderDetails and Order">
+      <option name="closed" value="true" />
+      <created>1705763446314</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1705763446314</updated>
+    </task>
+    <task id="LOCAL-00024" summary="OrderDetails and Order">
+      <option name="closed" value="true" />
+      <created>1705764050156</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1705764050156</updated>
+    </task>
+    <task id="LOCAL-00025" summary="OrderDetails and Order complete">
+      <option name="closed" value="true" />
+      <created>1705777795869</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1705777795870</updated>
+    </task>
+    <task id="LOCAL-00026" summary="OrderDetails and Order complete">
+      <option name="closed" value="true" />
+      <created>1705780849538</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1705780849538</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Item Table">
+      <option name="closed" value="true" />
+      <created>1705869795211</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1705869795211</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Item new item">
+      <option name="closed" value="true" />
+      <created>1705908204719</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1705908204719</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Item new item">
+      <option name="closed" value="true" />
+      <created>1705909895945</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1705909895945</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Place Order Form Complete">
+      <option name="closed" value="true" />
+      <created>1705913668049</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1705913668050</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Place Order Form Complete">
+      <option name="closed" value="true" />
+      <created>1705941734312</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1705941734312</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Corrections">
+      <option name="closed" value="true" />
+      <created>1705945884216</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1705945884216</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Corrections2">
+      <option name="closed" value="true" />
+      <created>1706906728864</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706906728864</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Save Customer Using Hibernate">
+      <option name="closed" value="true" />
+      <created>1706977248866</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1706977248866</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update and Delete Using Hibernate">
+      <option name="closed" value="true" />
+      <created>1706979163399</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1706979163399</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Conmplete USer in Hibernate">
+      <option name="closed" value="true" />
+      <created>1707064943740</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707064943740</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Conmplete CustomerDao in Hibernate">
+      <option name="closed" value="true" />
+      <created>1707066570758</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1707066570758</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Mapping">
+      <option name="closed" value="true" />
+      <created>1707078065294</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1707078065294</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Order Details Complete Using Mapping">
+      <option name="closed" value="true" />
+      <created>1707085406359</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1707085406359</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Complete UserUpdateDao Using Hibernate">
+      <option name="closed" value="true" />
+      <created>1707129714748</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1707129714748</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Complete ItemDao Using Hibernate">
+      <option name="closed" value="true" />
+      <created>1707133539359</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1707133539359</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Setting confirmation mail">
+      <option name="closed" value="true" />
+      <created>1707160987660</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1707160987660</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Code for send an email">
+      <option name="closed" value="true" />
+      <created>1707200408097</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1707200408097</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Send email complete">
+      <option name="closed" value="true" />
+      <created>1707244577774</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1707244577774</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Send Email and OTP Complete">
+      <option name="closed" value="true" />
+      <created>1707251783500</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1707251783500</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Update Password Form">
+      <option name="closed" value="true" />
+      <created>1707255930559</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1707255930559</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Password change Using OTP Complete">
+      <option name="closed" value="true" />
+      <created>1707312574570</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1707312574570</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Password change Using OTP Complete">
+      <option name="closed" value="true" />
+      <created>1707330893601</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1707330893601</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Adding Order Details Report">
+      <option name="closed" value="true" />
+      <created>1707337409341</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1707337409341</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Customer Add Complete" />
+    <MESSAGE value="OrderDetails and Order" />
+    <MESSAGE value="OrderDetails and Order complete2" />
+    <MESSAGE value="OrderDetails and Order complete" />
+    <MESSAGE value="Item Table" />
+    <MESSAGE value="Add Item Complete" />
+    <MESSAGE value="Item new item" />
+    <MESSAGE value="Place Order Form Complete" />
+    <MESSAGE value="Corrections" />
+    <MESSAGE value="Corrections2" />
+    <MESSAGE value="Save Customer Using Hibernate" />
+    <MESSAGE value="update and Delete Using Hibernate" />
+    <MESSAGE value="Conmplete USer in Hibernate" />
+    <MESSAGE value="Conmplete CustomerDao in Hibernate" />
+    <MESSAGE value="Mapping" />
+    <MESSAGE value="Order Details Complete Using Mapping" />
+    <MESSAGE value="Complete UserUpdateDao Using Hibernate" />
+    <MESSAGE value="Complete ItemDao Using Hibernate" />
+    <MESSAGE value="Setting confirmation mail" />
+    <MESSAGE value="Code for send an email" />
+    <MESSAGE value="Send email complete" />
+    <MESSAGE value="Send Email and OTP Complete" />
+    <MESSAGE value="Update Password Form" />
+    <MESSAGE value="Password change Using OTP Complete" />
+    <MESSAGE value="Adding Order Details Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Order Details Report" />
+  </component>
+</project>

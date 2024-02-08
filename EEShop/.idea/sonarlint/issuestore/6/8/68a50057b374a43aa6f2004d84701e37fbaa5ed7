@@ -1,0 +1,10 @@
+
+g	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8®¨¯ªØ1
+v
+java:S1104"TMake lblEmail a static final constant or non-public and provide accessors if needed.(Èèİ¡ûÿÿÿÿ8ö¨­ªØ1
+e
+java:S18545"CRemove this useless assignment to local variable "confirmPassword".(šÿÀâúÿÿÿÿ8©­ªØ1
+V
+java:S11173"9Rename "email" which hides the field declared at line 35.(İ²Ì’8©­ªØ1
+V
+java:S14815"4Remove this unused "confirmPassword" local variable.(šÿÀâúÿÿÿÿ8©­ªØ1

@@ -1,0 +1,13 @@
+
+L
+java:S3740H"/Provide the parametrized type for this generic.(ªÍÃ8¸ŸñÈ×1
+P
+java:S1128".Remove this unused import 'dao.util.CrudUtil'.(ØÒñ¿üÿÿÿÿ8ÍŸñÈ×1
+I
+java:S1128",Remove this unused import 'db.DBConnection'.(Šùà†8ÍŸñÈ×1
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ÍŸñÈ×1
+Y
+java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8ÍŸñÈ×1
+K
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8ÍŸñÈ×1

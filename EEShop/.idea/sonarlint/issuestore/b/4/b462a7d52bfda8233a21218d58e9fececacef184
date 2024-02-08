@@ -1,0 +1,9 @@
+
+g	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8»’œ’Ó1
+g	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8»’œ’Ó1
+a
+java:S2147J"DCombine this catch with the one at line 72, which has the same body.(ýàÑÎ8Ç’œ’Ó1
+F
+java:S1128")Remove this unused import 'bo.BoFactory'.(×…ãß8á§‰É×1
+I
+java:S1128",Remove this unused import 'dao.util.BoType'.(ä›ìü8á§‰É×1

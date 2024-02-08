@@ -1,0 +1,12 @@
+
+P
+java:S1121".Extract the assignment out of this expression.(Ó­Í™øÿÿÿÿ8•Áò’Ø1
+»
+java:S6548
+"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(§Ýüáþÿÿÿÿ8™Áò’Ø1
+d
+java:S1128"BRemove this unused import 'dao.custom.impl.UpdatePasswordDaoImpl'.(ä¢‚¤þÿÿÿÿ8ñ‚Ç“Ø1
+S
+java:S1128"6Remove this unused import 'dao.util.DaoType.CUSTOMER'.(‚§€ï8ñ‚Ç“Ø1
+X
+java:S1128";Remove this unused import 'dao.util.DaoType.ORDER_DETAILS'.(ÙÛìþ8ñ‚Ç“Ø1

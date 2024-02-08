@@ -1,0 +1,43 @@
+
+g	java:S112p"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8óÅûÓ1
+g	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ôÅûÓ1
+h	java:S112ª"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ôÅûÓ1
+h	java:S112¬"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ôÅûÓ1
+Q
+java:S3740-"/Provide the parametrized type for this generic.(Öíãâúÿÿÿÿ8õÅûÓ1
+Q
+java:S3740."/Provide the parametrized type for this generic.(¡¸Î‰øÿÿÿÿ8õÅûÓ1
+L
+java:S3740h"/Provide the parametrized type for this generic.(Ÿœ•¨8õÅûÓ1
+}
+java:S1104-"[Make tblOrderDetails a static final constant or non-public and provide accessors if needed.(Öíãâúÿÿÿÿ8øÅûÓ1
+w
+java:S1104."UMake colStatus a static final constant or non-public and provide accessors if needed.(¡¸Î‰øÿÿÿÿ8øÅûÓ1
+Ÿ
+java:S1186Â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éì£Ä8°ÆûÓ1
+¤
+java:S1186Å"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Äİ–ıÿÿÿÿ8°ÆûÓ1
+ƒ
+java:S4144º"eUpdate this method so that its implementation is not identical to "dashboardBtnOnAction" on line 178.(ı…¯8²ÆûÓ1
+b
+java:S2147q"ECombine this catch with the one at line 111, which has the same body.(ıàÑÎ8½ÆûÓ1
+c
+java:S2147«"ECombine this catch with the one at line 169, which has the same body.(ıàÑÎ8ÇÆûÓ1
+O
+java:S1172²"2Remove this unused method parameter "actionEvent".(Œ¶¡8ËÆûÓ1
+P
+java:S1172º"2Remove this unused method parameter "actionEvent".(ı…¯8ÒÆûÓ1
+M
+java:S1128"+Remove this unused import 'dao.DaoFactory'.(ÕèÇ‡úÿÿÿÿ8ÌÕÌ×1
+S
+java:S1128"7Remove this unused import 'dao.custom.OrderDetailsDao'.(¦ìù,8ÌÕÌ×1
+J
+java:S1128"-Remove this unused import 'dao.util.DaoType'.(ô¼8ÌÕÌ×1
+P
+java:S1128".Remove this unused import 'dao.util.ItemType'.(ƒÙØËûÿÿÿÿ8ÌÕÌ×1
+P
+java:S1128".Remove this unused import 'dto.tm.CustomerTm'.(Ä¶™ûÿÿÿÿ8ÌÕÌ×1
+G
+java:S1128"*Remove this unused import 'dto.tm.ItemTm'.( ƒúš8ÌÕÌ×1
+T
+java:S1128$"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8ÌÕÌ×1

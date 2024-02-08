@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jasperReport [
+		<!ELEMENT jasperReport (property|style|subDataset|queryString|background|title|pageFooter|summary)*>
+		<!ATTLIST jasperReport
+				xmlns CDATA #REQUIRED
+				xmlns:xsi CDATA #REQUIRED
+				xsi:schemaLocation CDATA #REQUIRED
+				name CDATA #REQUIRED
+				pageWidth CDATA #REQUIRED
+				pageHeight CDATA #REQUIRED
+				orientation CDATA #REQUIRED
+				whenNoDataType CDATA #REQUIRED
+				columnWidth CDATA #REQUIRED
+				leftMargin CDATA #REQUIRED
+				rightMargin CDATA #REQUIRED
+				topMargin CDATA #REQUIRED
+				bottomMargin CDATA #REQUIRED
+				uuid CDATA #REQUIRED>
+		<!ELEMENT property (#PCDATA)>
+		<!ATTLIST property
+				name CDATA #REQUIRED
+				value CDATA #REQUIRED>
+		<!ELEMENT style (box)*>
+		<!ATTLIST style
+				backcolor CDATA #IMPLIED
+				fontName CDATA #IMPLIED
+				fontSize CDATA #IMPLIED
+				forecolor CDATA #IMPLIED
+				isBold CDATA #IMPLIED
+				mode CDATA #IMPLIED
+				name CDATA #REQUIRED
+				style CDATA #IMPLIED>
+		<!ELEMENT box (pen|topPen|leftPen|bottomPen|rightPen)*>
+		<!ATTLIST box
+				leftPadding CDATA #IMPLIED
+				rightPadding CDATA #IMPLIED>
+		<!ELEMENT pen (#PCDATA)>
+		<!ATTLIST pen
+				lineColor CDATA #REQUIRED
+				lineWidth CDATA #REQUIRED>
+		<!ELEMENT topPen (#PCDATA)>
+		<!ATTLIST topPen
+				lineColor CDATA #REQUIRED
+				lineStyle CDATA #IMPLIED
+				lineWidth CDATA #REQUIRED>
+		<!ELEMENT leftPen (#PCDATA)>
+		<!ATTLIST leftPen
+				lineColor CDATA #REQUIRED
+				lineStyle CDATA #IMPLIED
+				lineWidth CDATA #REQUIRED>
+		<!ELEMENT bottomPen (#PCDATA)>
+		<!ATTLIST bottomPen
+				lineColor CDATA #REQUIRED
+				lineStyle CDATA #IMPLIED
+				lineWidth CDATA #REQUIRED>
+		<!ELEMENT rightPen (#PCDATA)>
+		<!ATTLIST rightPen
+				lineColor CDATA #REQUIRED
+				lineStyle CDATA #IMPLIED
+				lineWidth CDATA #REQUIRED>
+		<!ELEMENT subDataset (property|queryString|field)*>
+		<!ATTLIST subDataset
+				name CDATA #REQUIRED
+				uuid CDATA #REQUIRED>
+		<!ELEMENT queryString (#PCDATA)>
+		<!ATTLIST queryString
+				language CDATA #IMPLIED>
+		<!ELEMENT field (property)*>
+		<!ATTLIST field
+				class CDATA #REQUIRED
+				name CDATA #REQUIRED>
+		<!ELEMENT background (band)*>
+		<!ELEMENT band (image|frame|staticText|textField|property|componentElement)*>
+		<!ATTLIST band
+				height CDATA #REQUIRED
+				splitType CDATA #REQUIRED>
+		<!ELEMENT image (reportElement|imageExpression)*>
+		<!ATTLIST image
+				vAlign CDATA #REQUIRED>
+		<!ELEMENT reportElement (property)*>
+		<!ATTLIST reportElement
+				backcolor CDATA #IMPLIED
+				forecolor CDATA #IMPLIED
+				height CDATA #REQUIRED
+				key CDATA #IMPLIED
+				mode CDATA #IMPLIED
+				positionType CDATA #IMPLIED
+				style CDATA #IMPLIED
+				uuid CDATA #REQUIRED
+				width CDATA #REQUIRED
+				x CDATA #REQUIRED
+				y CDATA #REQUIRED>
+		<!ELEMENT imageExpression (#PCDATA)>
+		<!ELEMENT frame (reportElement|textField|line)*>
+		<!ELEMENT textField (reportElement|textElement|textFieldExpression|box)*>
+		<!ATTLIST textField
+				evaluationTime CDATA #IMPLIED
+				pattern CDATA #IMPLIED>
+		<!ELEMENT textElement (font)*>
+		<!ATTLIST textElement
+				textAlignment CDATA #IMPLIED
+				verticalAlignment CDATA #IMPLIED>
+		<!ELEMENT font (#PCDATA)>
+		<!ATTLIST font
+				fontName CDATA #IMPLIED
+				isBold CDATA #IMPLIED
+				size CDATA #REQUIRED>
+		<!ELEMENT textFieldExpression (#PCDATA)>
+		<!ELEMENT line (reportElement)*>
+		<!ELEMENT title (band)*>
+		<!ELEMENT staticText (reportElement|textElement|text|box)*>
+		<!ELEMENT text (#PCDATA)>
+		<!ELEMENT pageFooter (band)*>
+		<!ELEMENT summary (band)*>
+		<!ELEMENT componentElement (reportElement|jr:table)*>
+		<!ELEMENT jr:table (datasetRun|jr:column)*>
+		<!ATTLIST jr:table
+				xmlns:jr CDATA #REQUIRED
+				xsi:schemaLocation CDATA #REQUIRED>
+		<!ELEMENT datasetRun (connectionExpression)*>
+		<!ATTLIST datasetRun
+				subDataset CDATA #REQUIRED
+				uuid CDATA #REQUIRED>
+		<!ELEMENT connectionExpression (#PCDATA)>
+		<!ELEMENT jr:column (jr:tableFooter|jr:columnHeader|jr:columnFooter|jr:detailCell)*>
+		<!ATTLIST jr:column
+				uuid CDATA #REQUIRED
+				width CDATA #REQUIRED>
+		<!ELEMENT jr:tableFooter (#PCDATA)>
+		<!ATTLIST jr:tableFooter
+				height CDATA #REQUIRED
+				style CDATA #REQUIRED>
+		<!ELEMENT jr:columnHeader (staticText)*>
+		<!ATTLIST jr:columnHeader
+				height CDATA #REQUIRED
+				style CDATA #REQUIRED>
+		<!ELEMENT jr:columnFooter (#PCDATA)>
+		<!ATTLIST jr:columnFooter
+				height CDATA #REQUIRED
+				style CDATA #REQUIRED>
+		<!ELEMENT jr:detailCell (textField)*>
+		<!ATTLIST jr:detailCell
+				height CDATA #REQUIRED
+				style CDATA #REQUIRED>
+		]>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Waves_Landscape_Table_Based" pageWidth="842" pageHeight="595" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="0" uuid="cd3df208-1f01-461e-9efe-3ee6c21a9dcb">
+	<property name="template.engine" value="tabular_template"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (3)"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="b3JkZXJkZXRhaWxzICwxNSwxNSwxY2ViZDg0My0yZTUxLTRjMGEtODFhOC0wMmFkNjVkN2ZmMTg7"/>
+	<style name="Title" fontName="Arial" fontSize="26" isBold="true"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#FFFFFF" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+			<topPen lineWidth="1.0" lineColor="#000000"/>
+			<leftPen lineWidth="1.0" lineColor="#000000"/>
+			<bottomPen lineWidth="1.0" lineColor="#000000"/>
+			<rightPen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TH" mode="Transparent" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<leftPen lineWidth="0.0" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<rightPen lineWidth="0.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Transparent" forecolor="#B89F7D" backcolor="#70A9C6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Transparent" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#CCCCCC"/>
+			<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#CCCCCC"/>
+			<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH_Label" style="SubTitle" mode="Opaque" forecolor="#FFFFFF" backcolor="#666666" fontSize="16" isBold="true">
+		<box leftPadding="2"/>
+	</style>
+	<subDataset name="tableDataset" uuid="926a8e0e-75c5-4557-9a68-506f641ccd23">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (3)"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT *
+FROM orderdetails]]>
+		</queryString>
+		<field name="item_code" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="item_code"/>
+			<property name="com.jaspersoft.studio.field.label" value="item_code"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+		<field name="order_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="order_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="order_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+		<field name="customerName" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="customerName"/>
+			<property name="com.jaspersoft.studio.field.label" value="customerName"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+		<field name="itemCategory" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="itemCategory"/>
+			<property name="com.jaspersoft.studio.field.label" value="itemCategory"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+		<field name="itemName" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="itemName"/>
+			<property name="com.jaspersoft.studio.field.label" value="itemName"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+		<field name="itemPrice" class="java.lang.Double">
+			<property name="com.jaspersoft.studio.field.name" value="itemPrice"/>
+			<property name="com.jaspersoft.studio.field.label" value="itemPrice"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+		<field name="itemQty" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="itemQty"/>
+			<property name="com.jaspersoft.studio.field.label" value="itemQty"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+		<field name="status" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="status"/>
+			<property name="com.jaspersoft.studio.field.label" value="status"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="orderdetails"/>
+		</field>
+	</subDataset>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band height="575" splitType="Stretch">
+			<image vAlign="Bottom">
+				<reportElement positionType="Float" x="-20" y="66" width="105" height="409" uuid="64ca4020-b604-4de9-9ed1-921b74cfd593"/>
+				<imageExpression><![CDATA["waves.jpg"]]></imageExpression>
+			</image>
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="475" width="105" height="100" backcolor="#666666" uuid="c43bcaab-2004-4343-bc81-ffa62c8e2de6"/>
+				<textField>
+					<reportElement style="Column header" x="0" y="0" width="104" height="73" forecolor="#000000" uuid="556559f9-238c-4b08-acd0-f8cd3e750500"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="58" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="0" y="77" width="104" height="20" forecolor="#000000" uuid="a0923ef1-0a31-42cd-80c8-b714e4c8a4af"/>
+					<box leftPadding="4" rightPadding="4"/>
+					<textElement textAlignment="Center">
+						<font size="16" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement mode="Transparent" x="42" y="73" width="20" height="1" backcolor="#FFFFFF" uuid="1022d58b-595a-4931-810c-2820c25386ac"/>
+				</line>
+			</frame>
+		</band>
+	</background>
+	<title>
+		<band height="104" splitType="Stretch">
+			<staticText>
+				<reportElement style="Title" x="0" y="0" width="802" height="67" uuid="77e5f357-287f-46bb-a2ca-428ae6225aa5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="54" isBold="false"/>
+				</textElement>
+				<text><![CDATA[WAVES TITLE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="232" y="67" width="568" height="37" uuid="8a2c39c1-4f53-44ef-be46-14e63a90b2f0"/>
+				<textElement textAlignment="Right">
+					<font size="26"/>
+				</textElement>
+				<text><![CDATA[Waves SubTitle]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageFooter>
+		<band height="39" splitType="Stretch">
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement style="Column header" x="671" y="0" width="131" height="20" forecolor="#000000" uuid="cc434357-2dc8-4be7-ba91-1828360d1ee6"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="96" y="0" width="267" height="20" uuid="63d2e7ac-31ff-4ef3-949f-0d116927def9"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Waves Title Report]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="200" splitType="Stretch">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<componentElement>
+				<reportElement x="96" y="0" width="703" height="200" uuid="fa9874e1-104d-4276-815b-9528577a5eab">
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+						  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="tableDataset" uuid="084f3e10-da02-468f-b10a-abb581f7526f">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="87" uuid="e56c09be-9b6f-4404-8b9d-0ca418ccd323">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="df86e285-abe4-45b6-8f55-83fbbc2373d3"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[item_code]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="4f6010bc-5591-4b96-a6e5-7d2170479314"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{item_code}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="87" uuid="5970f2a1-c446-44fc-ac59-c643e3eb9dfa">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="ece3437a-4a26-4ff0-8b37-288369efc196"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[order_id]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="15b9d5e7-755c-4102-9bb9-5a3c522c437b"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{order_id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="87" uuid="3e3f0ac5-9411-4b7e-95c9-cabff564e1c6">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="c5de052f-09c4-456f-b0bf-5e371b01e8df"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[customerName]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="33fd2a25-5c60-436d-9bd7-59c408c4741a"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{customerName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="87" uuid="23c0dc2a-e543-4376-9e9f-8e1e7078103a">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="d4b87d9f-be11-433d-ac71-05812c9d162b"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[itemCategory]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="6dcbcc25-ab35-4b41-88b3-4daacd453767"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{itemCategory}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="87" uuid="b714c24c-d99c-43b6-ac9b-4db566a948ca">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="cc52824c-d838-4306-ab3b-8bd479be86b3"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[itemName]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="ac6664c6-30a9-4503-b0ab-05c089528a1e"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{itemName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="87" uuid="6dd443fe-1fe4-4ab1-a5bf-5d51783f9e7b">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="a8403d2d-085a-43f5-86c8-69b17d98e588"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[itemPrice]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="202966a0-2fa2-43f4-b7d8-08597fbf7915"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{itemPrice}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="87" uuid="c32dd19d-f20b-45ba-9f36-4a921a50481e">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="50b72c1e-3d0f-4ad8-80a7-6d1fbc5e4120"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[itemQty]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="068c3572-1b93-4137-b44e-75e587b5baf8"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{itemQty}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="87" uuid="f90a8bca-4e02-4cab-8f9f-09218e398230">
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="25">
+							<staticText>
+								<reportElement key="" style="Table_CH_Label" x="0" y="0" width="87" height="25" uuid="97e92599-b540-4db2-8917-5340c6513af0"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[status]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="25">
+							<textField>
+								<reportElement style="Detail" x="0" y="0" width="87" height="25" uuid="d0e5e1d3-b87c-4c86-8316-1b4a44ce4700"/>
+								<box leftPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="12"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{status}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</summary>
+</jasperReport>

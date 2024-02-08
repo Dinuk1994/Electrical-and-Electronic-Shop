@@ -1,0 +1,26 @@
+
+g	java:S112k"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8àª¬“Ø1
+h	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8àª¬“Ø1
+h	java:S112ä"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8áª¬“Ø1
+m
+java:S1104&"PMake pane a static final constant or non-public and provide accessors if needed.(ç¢ıã8âª¬“Ø1
+y
+java:S1104'"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8âª¬“Ø1
+p
+java:S1104("SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8âª¬“Ø1
+u
+java:S1104)"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8âª¬“Ø1
+v
+java:S1104*"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8âª¬“Ø1
+o	java:S116."NRename this field "OTP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ’¡úÿÿÿÿ8‚«¬“Ø1
+T
+java:S1172@"2Remove this unused method parameter "actionEvent".(ı‹òÆşÿÿÿÿ8‡«¬“Ø1
+t
+java:S3776s"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¶Ó¥ôúÿÿÿÿ8–«¬“Ø1
+T
+java:S1172s"2Remove this unused method parameter "actionEvent".(¶Ó¥ôúÿÿÿÿ8–«¬“Ø1
+o
+java:S3776¼"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ãÆ8œ«¬“Ø1
+M	java:S106Ñ"+Replace this use of System.out by a logger.(È³Şıÿÿÿÿ8øŒ÷“Ø1
+X
+java:S1128";Remove this unused import 'com.mysql.cj.x.protobuf.Mysqlx'.(«ÖÒÚ8·şˆØ1

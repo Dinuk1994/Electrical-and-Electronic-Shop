@@ -1,0 +1,19 @@
+
+Q
+java:S3740I"/Provide the parametrized type for this generic.(÷îÿÿÿÿÿ8ö‚à¨×1
+L
+java:S3740S"/Provide the parametrized type for this generic.(ÀÕæÂ8ö‚à¨×1
+P
+java:S1128".Remove this unused import 'dao.util.CrudUtil'.(ØÒñ¿üÿÿÿÿ8Â¥à¨×1
+I
+java:S1128",Remove this unused import 'db.DBConnection'.(Šùà†8Â¥à¨×1
+[
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.(ñ¦«¬şÿÿÿÿ8Â¥à¨×1
+Y
+java:S1128"<Remove this unused import 'org.hibernate.cfg.Configuration'.(ö¬ä8Â¥à¨×1
+Y
+java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ8Â¥à¨×1
+K
+java:S1128"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8Â¥à¨×1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Â¥à¨×1

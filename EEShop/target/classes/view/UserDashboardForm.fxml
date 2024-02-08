@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane5" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserDashboardFormController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="400.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/istockphoto-1323562285-612x612.jpg" />
+         </image>
+         <effect>
+            <MotionBlur />
+         </effect>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="90.0" layoutY="118.0" onAction="#userAcountBtnOnAction" prefHeight="69.0" prefWidth="220.0" style="-fx-background-color: #207599; -fx-background-radius: 15px;" text="Update Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="90.0" layoutY="234.0" onAction="#addNewCustomerBtnOnAction" prefHeight="69.0" prefWidth="220.0" style="-fx-background-color: #207599; -fx-background-radius: 15px;" text="Add New Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="90.0" layoutY="351.0" onAction="#addNewItemBtnOnAction" prefHeight="69.0" prefWidth="220.0" style="-fx-background-color: #207599; -fx-background-radius: 15px;" text="Add New Item" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="90.0" layoutY="468.0" onAction="#orderDetailsBtnOnAction" prefHeight="69.0" prefWidth="220.0" style="-fx-background-color: #207599; -fx-background-radius: 15px;" text="Order Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="44.0" layoutY="609.0" onAction="#placeOrderBtnOnAction" prefHeight="93.0" prefWidth="312.0" style="-fx-background-color: #C9CC32; -fx-background-radius: 15px; -fx-border-color: #000000; -fx-border-radius: 15px; -fx-border-image-width: 25px;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </JFXButton>
+      <JFXButton accessibleRole="IMAGE_VIEW" buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" layoutX="1074.0" layoutY="26.0" onAction="#logOutBtnOnAction" prefHeight="56.0" prefWidth="52.0">
+         <graphic>
+            <ImageView fitHeight="68.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/icons8-log-out-64.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="402.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/istockphoto-841806116-612x612.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
